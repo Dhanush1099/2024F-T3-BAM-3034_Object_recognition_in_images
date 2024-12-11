@@ -31,13 +31,11 @@ The CIFAR-10 dataset is a collection of 60,000 32x32 color images divided into 1
 
 ---
 
-## 📁 Project Structure
-
-```plaintext
-|-- app.py                 # Streamlit app for real-time predictions
-|-- cnn_model.h5           # Pre-trained CNN model
-|-- Code.ipynb             # Jupyter Notebook for model training
-|-- README.md              # Project documentation
+## 📁 Project Structure   
+      |-- app.py                 # Streamlit app for real-time predictions
+      |-- cnn_model.h5           # Pre-trained CNN model
+      |-- Code.ipynb             # Jupyter Notebook for model training
+      |-- README.md              # Project documentation
 
 **Installation and Setup**
 Clone the Repository:
@@ -74,11 +72,11 @@ Test Dataset: 10,000 CIFAR-10 images, split evenly across 10 classes.
 Accuracy:
 Overall classification accuracy: 70%.
 
-Class-Wise Metrics:
+**Class-Wise Metrics:**
 High F1-scores for classes such as ship (80%) and automobile (83%).
 Opportunities for improvement in classes like bird (57%) and cat (50%).
 
-Classification Report:
+**Classification Report:**
 
             precision    recall  f1-score   support
  airplane       0.74      0.75      0.75      1000
